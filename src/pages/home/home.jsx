@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <button>sSuccess</button>
+      <button>Success</button>
     </div>
   );
 };
