@@ -11,6 +11,7 @@ function LoginPage() {
     // handle login logic
 
     const userCridentials = { username, password };
+    console.log(userCridentials);
   };
 
   return (
