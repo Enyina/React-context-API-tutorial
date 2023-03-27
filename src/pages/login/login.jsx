@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import styles from "./Login.module.css";
 
 function LoginPage() {
@@ -11,7 +10,6 @@ function LoginPage() {
     // handle login logic
 
     const userCridentials = { username, password };
-    console.log(userCridentials);
   };
 
   return (
