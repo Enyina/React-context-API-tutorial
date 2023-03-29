@@ -11,11 +11,9 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          {user ? (
-            <Route path="/" element={<Home />} />
-          ) : (
-            <Route path="/login" element={<LoginPage />} />
-          )}
+          <Route path="/" element={user ? <Home /> : <LoginPage />} />
+
+          <Route path="/login" element={user ? <Home /> : <LoginPage />} />
         </Routes>
       </Router>
     </div>
